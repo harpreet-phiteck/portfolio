@@ -5,46 +5,46 @@ export default function Carusal(){
         <div class="slider">
 	<div class="slide-track">
 		<div class="slide">
-			<img src="/bootstrap.jpeg" height="80" width="220" alt="" />
+			<img src="/bootstrap.jpeg" height="70" width="220" alt="" />
 		</div>
 		<div class="slide">
-			<img src="/html_css.png" height="80" width="220" alt="" />
+			<img src="/html_css.png" height="70" width="220" alt="" />
 		</div>
 		<div class="slide">
-			<img src="/cropper js.png" height="80" width="220" alt="" />
+			<img src="/cropper js.png" height="70" width="220" alt="" />
 		</div>
 		<div class="slide">
-			<img src="/download (8).png" height="80" width="220" alt="" />
+			<img src="/download (8).png" height="70" width="220" alt="" />
 		</div>
 		<div class="slide">
-			<img src="/download (9).png" height="80" width="220" alt="" />
+			<img src="/download (9).png" height="70" width="220" alt="" />
 		</div>
 		<div class="slide">
-			<img src="/reactjs.png" height="80" width="220" alt="" />
+			<img src="/reactjs.png" height="70" width="220" alt="" />
 		</div>		
 		<div class="slide">
-			<img src="/mapbox.png" height="80" width="220" alt="" />
+			<img src="/mapbox.png" height="70" width="220" alt="" />
 		</div>
 		<div class="slide">
-			<img src="/bootstrap.jpeg" height="80" width="220" alt="" />
+			<img src="/bootstrap.jpeg" height="70" width="220" alt="" />
 		</div>
 		<div class="slide">
-			<img src="/html_css.png" height="80" width="220" alt="" />
+			<img src="/html_css.png" height="70" width="220" alt="" />
 		</div>
 		<div class="slide">
-			<img src="/cropper js.png" height="80" width="220" alt="" />
+			<img src="/cropper js.png" height="70" width="220" alt="" />
 		</div>
 		<div class="slide">
-			<img src="/download (8).png" height="80" width="220" alt="" />
+			<img src="/download (8).png" height="70" width="220" alt="" />
 		</div>
 		<div class="slide">
-			<img src="/download (9).png" height="80" width="220" alt="" />
+			<img src="/download (9).png" height="70" width="220" alt="" />
 		</div>
 		<div class="slide">
-			<img src="/reactjs.png" height="80" width="220" alt="" />
+			<img src="/reactjs.png" height="70" width="220" alt="" />
 		</div>		
 		<div class="slide">
-			<img src="/mapbox.png" height="80" width="220" alt="" />
+			<img src="/mapbox.png" height="70" width="220" alt="" />
 		</div>
 		
 	</div>
