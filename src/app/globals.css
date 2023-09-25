@@ -1,0 +1,23 @@
+:root {
+  --black: #0d1730;
+  --white: #ffffff;
+  --blue:#3e6ff4;
+}
+   /* Reset some default styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+  body{
+    color: var(--black);
+  }
+  .portfolio_container{
+    width: 100%;
+    max-width: 1170px;
+    padding-inline: min(20px, 4vw);
+    margin: auto;
+  }
+  .header_shadow{
+    box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
+  }
