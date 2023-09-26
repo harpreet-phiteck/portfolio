@@ -13,7 +13,7 @@ export default function Intro() {
               <h1>
                 <span style={{ display: "block" }}>Hi,</span> I'am{" "}
                 <span style={{ color: "#3e6ff4" }}>Marlon</span>{" "}
-                <span style={{ display: "block" }}>Web Developer</span>
+                <span style={{ display: "block" }} className="intro_webdev" >Web Developer</span>
               </h1>
             </div>
             <div className="intro_btn">

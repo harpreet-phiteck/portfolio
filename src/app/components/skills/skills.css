@@ -1,0 +1,71 @@
+.skills_section .skills_wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    padding-block: min(45px , 8vw);  
+    flex-wrap: wrap;
+}
+.skills_section .skills_heading_wrapper h2{
+    text-align: center;
+    color: var(--blue);
+    text-decoration: underline;
+    padding-block: min(45px , 8vw);
+    font-size: min(30px, 7vw); 
+}
+.skills_section .skills_image_wrapper,.skills_content_wrapper{
+    flex: 1 1 50%;   
+}
+.skills_section .skills_image_wrapper{
+    text-align: center;
+}
+.skills_section .skills_image_wrapper img{
+    width: 496px;
+    margin: auto;
+    border-radius: 8px;
+}
+.skills_section .skills_content_wrapper h2{
+    margin-bottom: min(15px, 3vw);
+}
+.skills_section .skills_content_wrapper .skills_detail_container .html{
+    width: 100%;
+    box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: min(10px, 3vw);
+    margin-block: min(25px, 5vw);
+    position: relative;
+
+}
+.skills_section .skills_content_wrapper .skills_detail_container .html .skill_bar{
+    width: 95%;
+    max-width: 95%;
+    height: 4px;
+    background-color: var(--blue);
+    position: absolute;
+    bottom: 0px;
+    left: 1px;
+    border-radius: 3px;
+
+}
+
+.skills_section .skills_content_wrapper .skills_detail_container .html div{   
+    /* flex: 1 1 50%; */
+    max-width: 160px;  
+    display: flex;
+    align-items: center;
+    padding-inline: 14px;    
+}
+
+@media screen and (max-width:991px) {
+    .skills_section .skills_image_wrapper,.skills_content_wrapper{
+        flex: 1 1 100%; 
+        text-align: center; 
+        padding-inline: 5px; 
+    }
+    .skills_section .skills_image_wrapper img{
+        width: 375px;
+        max-width: 100%;      
+    }
+}
