@@ -1,0 +1,22 @@
+.footer{
+    background-color: #0d1730;
+    color: var(--white);
+    padding-block: min(20px, 4vw);
+    margin-top: min(20px, 4vw);
+}
+.footer .footer_wrapper{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column;
+}
+.footer_social_links{
+    width: 100%;
+    max-width: 100px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: min(25px, 2vw); 
+}
+.footer .footer_description{
+    margin-top: min(25px, 2vw);
+}

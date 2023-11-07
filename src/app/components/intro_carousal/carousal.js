@@ -2,49 +2,71 @@ import './carousal.css';
 export default function Carusal(){
     return(
         <section>
-        <div class="slider">
-	<div class="slide-track">
-		<div class="slide">
-			<img src="/bootstrap.jpeg" height="70" width="220" alt="" />
+        <div className="slider">
+	<div className="slide-track">
+		<div className="slide">			
+			<button className='btn'>HTML</button>
 		</div>
-		<div class="slide">
-			<img src="/html_css.png" height="70" width="220" alt="" />
+		<div className="slide">
+		<button className='btn'>CSS</button>
 		</div>
-		<div class="slide">
-			<img src="/cropper js.png" height="70" width="220" alt="" />
+		<div className="slide">
+		<button className='btn'>JAVASCRIPT</button>
 		</div>
-		<div class="slide">
-			<img src="/download (8).png" height="70" width="220" alt="" />
+		<div className="slide">
+		<button className='btn'>JQUERY</button>
 		</div>
-		<div class="slide">
-			<img src="/download (9).png" height="70" width="220" alt="" />
+		<div className="slide">
+		<button className='btn'>BOOTSTRAP</button>
 		</div>
-		<div class="slide">
-			<img src="/reactjs.png" height="70" width="220" alt="" />
+		<div className="slide">
+		<button className='btn'>REACT JS</button>
 		</div>		
-		<div class="slide">
-			<img src="/mapbox.png" height="70" width="220" alt="" />
+		<div className="slide">
+		<button className='btn'>NEXT JS</button>
 		</div>
-		<div class="slide">
-			<img src="/bootstrap.jpeg" height="70" width="220" alt="" />
+		<div className="slide">
+		<button className='btn'>WEB DESIGN</button>
 		</div>
-		<div class="slide">
-			<img src="/html_css.png" height="70" width="220" alt="" />
+		<div className="slide">
+		<button className='btn'>REST APIs</button>
 		</div>
-		<div class="slide">
-			<img src="/cropper js.png" height="70" width="220" alt="" />
+		<div className="slide">
+		<button className='btn'>GITHUB</button>
 		</div>
-		<div class="slide">
-			<img src="/download (8).png" height="70" width="220" alt="" />
+		<div className="slide">
+		<button className='btn'>RESPONSIVE DESIGN</button>
 		</div>
-		<div class="slide">
-			<img src="/download (9).png" height="70" width="220" alt="" />
+		<div className="slide">
+		<button className='btn'>JAVASCRIPT</button>
 		</div>
-		<div class="slide">
-			<img src="/reactjs.png" height="70" width="220" alt="" />
+		<div className="slide">
+		<button className='btn'>JQUERY</button>
 		</div>		
-		<div class="slide">
-			<img src="/mapbox.png" height="70" width="220" alt="" />
+		<div className="slide">
+		<button className='btn'>BOOTSTRAP</button>
+		</div>
+		<div className="slide">
+		<button className='btn'>REACT JS</button>
+		</div>
+		<div className="slide">
+		<button className='btn'>NEST JS</button>
+		</div>		
+		<div className="slide">
+		<button className='btn'>RESPONSIVE DESIGN</button>
+		</div>
+		<div className="slide">
+		<button className='btn'>WEB DESIGN</button>
+		</div>
+		<div className="slide">
+		<button className='btn'>JAVASCRIPT</button>
+		</div>		
+		<div className="slide">
+		<button className='btn'>HTML</button>
+		</div>
+		
+		<div className="slide">
+		<button className='btn'>REACT JS</button>
 		</div>
 		
 	</div>
@@ -52,3 +74,4 @@ export default function Carusal(){
 </section>
     )
 }
+

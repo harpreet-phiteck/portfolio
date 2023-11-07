@@ -5,7 +5,11 @@ import { useEffect } from 'react';
 export default function Header(){   
     const popupMenu =  () => {
     const menu = document.getElementById("menu");
+    const bar = document.querySelectorAll(".bar")
     menu.classList.toggle("active");
+    bar[0].classList.toggle("rotate_bar1");
+    bar[1].classList.toggle("rotate_bar3");
+    bar[2].classList.toggle("rotate_bar2");
 };
 useEffect(()=>{
     document.querySelectorAll("#menu li a").forEach((ele)=>{
@@ -16,13 +20,20 @@ useEffect(()=>{
             e.target.classList.add("bottom_bdr")
         });
     })
+   window.addEventListener('scroll',function(e) {     
+        if(scrollY> 0){
+            document.querySelector('.header').classList.add('fixed')
+        }else{
+            document.querySelector('.header').classList.remove('fixed')
+        }
+    })
 },[]);
     return(
-        <header>
+        <header className='header'>
             <div className='portfolio_container'>
             <nav className="navbar">
         <div className="logo">
-            <Link href="#">Marlon</Link>
+            <Link href="#">Harpreet</Link>
         </div>
         <div className="menu-toggle" id="menu-toggle" onClick={popupMenu}>
             <div className="bar"></div>
@@ -30,11 +41,11 @@ useEffect(()=>{
             <div className="bar"></div>
         </div>
         <ul className="menu" id="menu">
-            <li><Link href="#">Home</Link></li>
-            <li><Link href="#">About</Link></li>
-            <li><Link href="#">Skills</Link></li>
-            <li><Link href="#">Work</Link></li>
-            <li><Link href="#">Contact</Link></li>
+            <li><Link href="#intro">Home</Link></li>
+            <li><Link href="#about">About</Link></li>
+            <li><Link href="#skills">Skills</Link></li>
+            <li><Link href="#work">Work</Link></li>
+            <li><Link href="#contact">Contact</Link></li>
         </ul>
     </nav>
     </div>

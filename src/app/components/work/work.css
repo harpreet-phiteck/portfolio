@@ -1,0 +1,53 @@
+.work_section .work_wrapper > .work_heading > h2{
+    text-align: center;
+    color: var(--blue);
+    text-decoration: underline;
+    padding-block: min(45px , 8vw);
+    font-size: min(30px, 7vw); 
+}
+.work_section .work_wrapper > .work_detail{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    padding-block: min(45px , 8vw);  
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.work_section .work_detail > .work_project{
+    flex: 1 1 340px;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.work_section .work_detail > .work_project > img,.project_link{
+    width: 100%;
+    border-radius: 15px; 
+    display: block; 
+}
+.work_section .work_detail > .work_project:hover img{
+    transform:scale(1.2) rotate(5deg);
+    transition: all 1s;      
+}
+.work_section .work_detail > .work_project > .project_link{
+    position: absolute;
+    z-index: -1;
+}
+.work_section .work_detail > .work_project:hover .project_link{  
+    position: absolute;
+    transition: all 1s; 
+    z-index: 2;
+    inset: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #3e6ff4b0;
+}
+.work_section .work_detail > .work_project:hover .project_link > a{
+    background-color:var(--white);
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: var(--black);
+    font-weight: 600;
+}

@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHtml5,faCss3Alt,faJs, faReact} from '@fortawesome/free-brands-svg-icons';
 export default function Skills(){
     return(
-        <section className="skills_section">
+        <section className="skills_section" id='skills'>
         <div className="portfolio_container">
                 <div className='skills_heading_wrapper'>
                     <h2>
@@ -17,7 +17,7 @@ export default function Skills(){
                         Profesional Skills
                     </h2>
                     <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate cum expedita quo culpa tempora, assumenda, quis fugiat ut voluptates soluta.
+                    Professional skills encompass a wide range of abilities, knowledge, and attributes that are valuable in the workplace. Here are some key professional skills across various categories:
                     </p>
                     <div className='skills_detail_container'>
                         <div className='html'>
