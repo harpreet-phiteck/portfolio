@@ -1,5 +1,6 @@
 import './globals.css'
 import { Inter,Poppins } from 'next/font/google'
+import { Analytics } from '@vercel/analytics/react';
 import Header from './components/header/header'
 const poppins = Poppins({ subsets: ['latin'], weight:[ "100", "200", "300", "400", "500", "600", "700", "800", "900"]})
 
@@ -14,6 +15,7 @@ export default function RootLayout({ children }) {
       <body className={poppins.className} suppressHydrationWarning={true}>
         <Header/>
         {children}
+        <Analytics />
         </body>
     </html>
   )
