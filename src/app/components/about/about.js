@@ -32,7 +32,7 @@ export default function About() {
                               <span>
                                  Email Us
                                 </span>
-                                <span>harpreetbambrah93@gmail.com</span>
+                                <span><a href="mailto:harpreetbambrah93@gmail.com" target="_blank" style={{textDecoration:'none'}}> harpreetbambrah93@gmail.com</a></span>
                                </span>
                               
                             </div>
@@ -44,7 +44,7 @@ export default function About() {
                               <span>
                                  Make a Call
                                 </span>
-                                <span>+91 9463308973</span>
+                                <span><a href="tel:+919463308973" target="_blank" style={{textDecoration:'none'}}>+91 9463308973</a></span>
                                </span>
                               
                             </div>
