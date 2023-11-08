@@ -15,7 +15,7 @@ export default function Contact() {
     const SubmitData = (e)=>{
         e.preventDefault()
         // console.log(JSON.stringify(data))        
-        fetch("http://localhost:10000/message", {
+        fetch("https://portfolio-8878.onrender.com/message", {
             method: "POST",
             body: JSON.stringify(data),
             headers: {
