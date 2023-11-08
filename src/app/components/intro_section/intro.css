@@ -22,7 +22,7 @@
     border-radius: 5px;
     text-decoration: none;
     display: inline-block;
-    font-size: clamp(14px, 2vw, 16px);
+    font-size: clamp(12px, 2vw, 16px);
     margin-top: min(25px, 4vw);
     transition:800ms ease all;
     position: relative;
