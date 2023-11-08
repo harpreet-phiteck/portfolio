@@ -42,11 +42,11 @@ export default function Contact() {
                                 <input type="text" id="fname" name="name" placeholder="Your name.." onInput={getData} />
 
                                 <label htmlFor="lname">Emaill Address</label>
-                                <input type="text" id="lname" name="email" placeholder="Your last name.." onInput={getData} />                               
+                                <input type="text" id="lname" name="email" placeholder="Your email address.." onInput={getData} />                               
                                 <label htmlFor="mobile">Mobile No.</label>
                                 <input type="text" id="mobile" name="mobile" placeholder="Your mobile no.." onInput={getData} />                               
 
-                                <label htmlFor="subject">Subject</label>
+                                <label htmlFor="subject">Message</label>
                                 <textarea id="subject" name="message" placeholder="Write something.." style={{height:"200px"}} onInput={getData}></textarea>
 
                                 <input type="submit" value="Message" />
