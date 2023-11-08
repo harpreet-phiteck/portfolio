@@ -21,7 +21,7 @@ export default function Intro() {
               </h1>
             </div>
             <div className="intro_btn">             
-              <Link href="resume_file/HarpreetSingh 06112023.pdf" download >Download Cv</Link>
+              <Link href="/HarpreetSingh 06112023.pdf" download='HarpreetSingh 06112023' >Download Cv</Link>
             </div>
             <div className="intro_icon_wrapper">
             <FontAwesomeIcon icon={faLinkedinIn} style={{width:'22px', marginInline:'5px'}} />
