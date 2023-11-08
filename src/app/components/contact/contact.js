@@ -15,7 +15,7 @@ export default function Contact() {
     const SubmitData = (e)=>{
         e.preventDefault()
         // console.log(JSON.stringify(data))        
-        fetch("http://localhost:9000/message", {
+        fetch("http://localhost:10000/message", {
             method: "POST",
             body: JSON.stringify(data),
             headers: {
