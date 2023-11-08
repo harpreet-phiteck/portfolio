@@ -10,7 +10,7 @@ export default function About() {
                 </div>
                 <div className="about_wrapper">
                     <div className="about_image_wrapper">
-                        <img src="/about.jpg" alt="my_img" />
+                        <img src="/harpreet_profile_img (1).png" alt="my_img" />
                     </div>
                     <div className="about_content_wrapper">
                         <h2>

@@ -31,12 +31,12 @@ export default function Intro() {
           <div className="intro_image">
             <div className="intro_image_container">
             <Image
-              src="/perfil.png"
+              src="/harpreet_profile_img (1).png"
               alt="profile_image"
               width={360}
               height={360}
               priority   
-              style={{width:'80%', height:'auto'}}           
+              style={{width:'90%', height:'auto'}}           
             />
             </div>
             </div>
