@@ -6,7 +6,7 @@ var app = express();
 app.use(express.json());
 app.use(cors())
 
-var port = 9000;
+const PORT = process.env.PORT || 3030;
 
 app.post('/message', function(req, res) {
     console.log('receiving data ...');
@@ -16,8 +16,8 @@ app.post('/message', function(req, res) {
 });
 
 // start the server
-app.listen(port);
-console.log('Server started! At http://localhost:' + port);
+app.listen(PORT);
+console.log('Server started! At http://localhost:' + PORT);
 //2. import nodemailer
 
 
