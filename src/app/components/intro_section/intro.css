@@ -22,7 +22,7 @@
     border-radius: 5px;
     text-decoration: none;
     display: inline-block;
-    font-size: clamp(12px, 2vw, 16px);
+    font-size: clamp(14px, 2vw, 16px);
     margin-top: min(25px, 4vw);
     transition:800ms ease all;
     position: relative;
@@ -127,4 +127,7 @@
     .intro_section > .portfolio_container > .intro_wrapper > .intro_content > .intro_heading >h1{
       font-size: clamp(24px, 8vw, 54px);
   }
+      .intro_section > .portfolio_container > .intro_wrapper .intro_icon_wrapper{
+    width: 100%;
+    max-width: 125px;
   }
