@@ -38,16 +38,16 @@ export default function Contact() {
                         </div>
                         <div className='contact_form_container'>
                             <form onSubmit={SubmitData}>
-                                <label htmlFor="fname">Name</label>
-                                <input type="text" id="fname" name="name" placeholder="Your name.." onInput={getData} />
+                                <label htmlFor="fname">Name*</label>
+                                <input type="text" id="fname" name="name" placeholder="Your name.." onInput={getData} required pattern="[A-Za-z ]+" title='Use upparcase or lowercase letter or space only' />
 
-                                <label htmlFor="lname">Emaill Address</label>
-                                <input type="text" id="lname" name="email" placeholder="Your email address.." onInput={getData} />                               
-                                <label htmlFor="mobile">Mobile No.</label>
-                                <input type="text" id="mobile" name="mobile" placeholder="Your mobile no.." onInput={getData} />                               
+                                <label htmlFor="lname">Emaill Address*</label>
+                                <input type="email" id="lname" name="email" placeholder="Your email address.." onInput={getData} required />                               
+                                <label htmlFor="mobile">Mobile No.*</label>
+                                <input type="text" id="mobile" name="mobile" placeholder="Your mobile no.." onInput={getData} required pattern="[0-9+ ]+" title='Use only ("+",space, 0-9) numbers '/>                               
 
-                                <label htmlFor="subject">Message</label>
-                                <textarea id="subject" name="message" placeholder="Write something.." style={{height:"200px"}} onInput={getData}></textarea>
+                                <label htmlFor="subject">Message*</label>
+                                <textarea id="subject" name="message" placeholder="Write something.." style={{height:"200px"}} onInput={getData} required ></textarea>
 
                                 <input type="submit" value="Message" />
                             </form>

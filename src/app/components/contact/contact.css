@@ -21,7 +21,7 @@
     width: 100%;  
     border-radius: 15px;
 }
-.contact_form_container input[type=text], textarea {
+.contact_form_container input[type=text],input[type=email], textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
