@@ -23,7 +23,9 @@ export default function Contact() {
             }
           })
             .then((response) => response.json())
-            .then((json) => console.log(json));
+            .then((json) =>{
+                alert('Your message has been successfully sent')
+            });
     }
     return (
         <section className="contact_section" id='contact'>
