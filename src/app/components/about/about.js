@@ -30,7 +30,7 @@ export default function About() {
                             I'am Harpreet
                         </h2>
                         <p>
-                        As a Front-End Developer more than { getyear > 0 ? getyear+' year': getMonth+' month'} experience, I specialize in crafting immersive and user-centric web experiences. My expertise lies in HTML, CSS, and JavaScript, along with proficiency in modern front-end frameworks like Bootstrap, React, NextJs.
+                        As a <strong>Front-End Developer</strong> more than <strong>{ getyear > 0 ? getyear+' year': getMonth+' month'}</strong> experience, I specialize in crafting immersive and user-centric web experiences. My expertise lies in HTML, CSS, and JavaScript, along with proficiency in modern front-end frameworks like Bootstrap, React, NextJs.
                         </p>
                         <div className='highlight_skills'>
                             <div><span><FontAwesomeIcon icon={faCheck} style={{width:'22px', marginInline:'8px', color:'#3e6ff4', fontSize:'22px'}} />Web Development</span><span> <FontAwesomeIcon icon={faCheck} style={{width:'22px', marginInline:'8px', color:'#3e6ff4', fontSize:'22px'}} />Responsive Design</span></div>

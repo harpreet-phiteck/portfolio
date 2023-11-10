@@ -51,3 +51,31 @@
     color: var(--black);
     font-weight: 600;
 }
+.work_section .work_detail > .work_project:hover .project_link > a:first-child{
+    animation: animation1;
+    animation-duration: .5s;
+    animation-timing-function: ease-in-out;
+}
+.work_section .work_detail > .work_project:hover .project_link > a:last-child{
+    animation: animation2;
+    animation-duration: .5s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes animation1 {
+    from{
+        transform: translateY(-200%);
+    }
+    to{
+        transform: translateY(0%);
+    }
+}
+@keyframes animation2 {
+    from{
+        transform: translateY(200%);
+    }
+    to{
+        transform: translateY(0%);
+    }
+}
+    
