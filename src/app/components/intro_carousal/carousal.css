@@ -19,7 +19,7 @@
     margin: auto;
     overflow: hidden;
     position: relative;
-    max-width: 1170px;
+    max-width: 1140px;
     width: 100%;
 }
 .slider::before, .slider::after {
@@ -65,17 +65,17 @@
 }
 @media screen and (max-width: 576px) {
     .slider, .slide, .slide-track .slider::before, .slider::after{
-        height: 40px;
+        height: 45px;
     }
     .slider{
         display: flex;
         align-items: center;
     }   
     .slider .slide .btn{
-        height: 30px;
+        height: 35px;
     }
     .slider .slide {
-        height: 30px;
-        margin-inline: 6px;
+        height: 35px;
+        margin-inline: 5px;
     }
 }

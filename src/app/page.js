@@ -17,16 +17,16 @@ export default function Home() {
     <main>
       <div className="fixed_icon_container">
         <a href="https://in.linkedin.com/in/harpreet-bambrah" target="_blank">
-          <FontAwesomeIcon icon={faLinkedinIn} />
+          <FontAwesomeIcon icon={faLinkedinIn}  />
         </a>
         <a href="https://github.com/Harpreet-Bambrah" target="_blank">
           <FontAwesomeIcon icon={faGithub} />
         </a>
         <a href="https://wa.me/+919463308973?text=Hi Harpreet" target="_blank">
-          <FontAwesomeIcon icon={faWhatsapp} />
+          <FontAwesomeIcon icon={faWhatsapp}  />
         </a>
         <a href="mailto:harpreetbambrah93@gmail.com" target="_blank">
-          <FontAwesomeIcon icon={faEnvelope} />
+          <FontAwesomeIcon icon={faEnvelope}  />
         </a>
       </div>
       <Intro />

@@ -24,8 +24,12 @@ export default function Intro() {
               <a href='/HarpreetSingh_08112023.pdf' download='HarpreetSingh_08112023'>Download Cv</a>
             </div>
             <div className="intro_icon_wrapper">
-            <FontAwesomeIcon icon={faLinkedinIn} style={{width:'22px', marginInline:'5px'}} />
-            <FontAwesomeIcon icon={faGithub} style={{width:'22px', marginInline:'5px'}} />
+              <a href="https://in.linkedin.com/in/harpreet-bambrah">
+            <FontAwesomeIcon icon={faLinkedinIn} style={{width:'22px', marginInline:'5px', fontSize:'22px'}} />
+              </a>
+              <a href="https://github.com/Harpreet-Bambrah">
+            <FontAwesomeIcon icon={faGithub} style={{width:'22px', marginInline:'5px', fontSize:'22px'}} />
+              </a>
             </div>
           </div>
           <div className="intro_image">

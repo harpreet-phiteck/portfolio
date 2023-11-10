@@ -1,20 +1,18 @@
 'use client'
 import './contact.css'
 import { useState } from 'react'
-
 export default function Contact() {
     const [data, setData] = useState({})
-    const getData = (e)=>{
-        console.log(e.target.value)
+    const [btnvalue,setbtnvalue] = useState('Message')
+    const getData = (e)=>{    
         setData(
             {
                 ...data,[e.target.name]:e.target.value
             }
-        )
-    }
+        )}
     const SubmitData = (e)=>{
         e.preventDefault()
-        // console.log(JSON.stringify(data))        
+        setbtnvalue('Loading...')     
         fetch("https://portfolio-8878.onrender.com/message", {
             method: "POST",
             body: JSON.stringify(data),
@@ -24,7 +22,9 @@ export default function Contact() {
           })
             .then((response) => response.json())
             .then((json) =>{
-                alert('Your message has been successfully sent')
+                setbtnvalue('Message')
+                document.querySelectorAll('form > .form_input').forEach((ele)=>{ele.value=''})              
+                alert('Your message has been successfully sent')            
             });
     }
     return (
@@ -40,18 +40,18 @@ export default function Contact() {
                         </div>
                         <div className='contact_form_container'>
                             <form onSubmit={SubmitData}>
-                                <label htmlFor="fname">Name</label>
-                                <input type="text" id="fname" name="name" placeholder="Your name.." onInput={getData} required pattern="[A-Za-z ]+" title='Use upparcase or lowercase letter or space only' />
+                                <label htmlFor="fname">Name<sup> &#8727;</sup></label>
+                                <input type="text" id="fname" className='form_input' name="name" placeholder="Your name.."  onInput={getData} required pattern="[A-Za-z ]+" title='Use upparcase or lowercase letter or space only' />
 
-                                <label htmlFor="lname">Emaill Address</label>
-                                <input type="email" id="lname" name="email" placeholder="Your email address.." onInput={getData} required />                               
-                                <label htmlFor="mobile">Mobile No.</label>
-                                <input type="text" id="mobile" name="mobile" placeholder="Your mobile no.." onInput={getData} required pattern="[0-9+ ]+" title="Use only '+',space, 0-9 numbers"/>                               
+                                <label htmlFor="lname">Emaill Address<sup> &#8727;</sup></label>
+                                <input type="email" id="lname" className='form_input' name="email" placeholder="Your email address.." onInput={getData} required />                               
+                                <label htmlFor="mobile">Mobile No.<sup> &#8727;</sup></label>
+                                <input type="text" id="mobile" className='form_input' name="mobile" placeholder="Your mobile no.." onInput={getData} required pattern="[0-9+ ]+" title="Use only '+',space, 0-9 numbers"/>                               
 
-                                <label htmlFor="subject">Message</label>
-                                <textarea id="subject" name="message" placeholder="Write something.." style={{height:"200px"}} onInput={getData} required ></textarea>
+                                <label htmlFor="subject">Message<sup> &#8727;</sup></label>
+                                <textarea id="subject" className='form_input' name="message" placeholder="Write something.." style={{height:"200px"}} onInput={getData} required ></textarea>
 
-                                <input type="submit" value="Message" />
+                                <input type="submit" value={btnvalue} />
                             </form>
                         </div>
                     </div>

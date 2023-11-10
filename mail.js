@@ -15,6 +15,7 @@ app.post('/message', function(req, res) {
     sendMail(req.body)
 });
 
+
 // start the server
 app.listen(PORT);
 console.log('Server started! At http://localhost:' + PORT);

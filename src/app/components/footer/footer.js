@@ -10,8 +10,12 @@ export default function Footer() {
                         <h2>Harpreet</h2>
                     </div>
                     <div className='footer_social_links'>
-                        <FontAwesomeIcon icon={faLinkedinIn} style={{ width: '22px', marginInline: '5px' }} />
-                        <FontAwesomeIcon icon={faGithub} style={{ width: '22px', marginInline: '5px' }} />
+                    <a href="https://in.linkedin.com/in/harpreet-bambrah" style={{textDecoration:'none', color:'#ffffff'}}>
+                        <FontAwesomeIcon icon={faLinkedinIn} style={{ width: '22px',height:'22px', marginInline: '5px' }} />
+                    </a>  
+                    <a href="https://github.com/Harpreet-Bambrah" style={{textDecoration:'none', color:'#ffffff'}}>  
+                        <FontAwesomeIcon icon={faGithub} style={{ width: '22px',height:'22px', marginInline: '5px' }} />
+                        </a>
                     </div>
                     <div className='footer_description'>
                         <p>Thanks for visiting</p>
