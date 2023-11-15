@@ -129,6 +129,7 @@
         width: 100%;
         max-width: 350px;
         margin: auto;
+        padding-block: min(3vw, 20px);
     }
 
 }
