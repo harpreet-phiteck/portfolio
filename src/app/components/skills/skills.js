@@ -25,7 +25,7 @@ export default function Skills(){
                             <FontAwesomeIcon icon={faHtml5} style={{width:'22px',color:'#3e6ff4'}} /> <span style={{fontSize:'16px',fontWeight:'600',paddingInline:'8px'}}>HTML5</span>
                             </div>
                             <div>
-                                95%
+                                85%
                             </div>
                             <div className='skill_bar'>
                                 
@@ -36,7 +36,7 @@ export default function Skills(){
                             <FontAwesomeIcon icon={faCss3Alt} style={{width:'22px',color:'#3e6ff4'}} /> <span style={{fontSize:'16px',fontWeight:'600',paddingInline:'8px'}}>CSS3</span>
                             </div>
                             <div>
-                                85%
+                                80%
                             </div>
                             <div className='skill_bar' style={{maxWidth:'85%'}}>
 
@@ -58,9 +58,9 @@ export default function Skills(){
                             <FontAwesomeIcon icon={faReact} style={{width:'22px',color:'#3e6ff4'}} /> <span style={{fontSize:'16px',fontWeight:'600',paddingInline:'8px'}}>REACTJS</span>
                             </div>
                             <div>
-                                70%
+                                45%
                             </div>
-                            <div className='skill_bar' style={{maxWidth:'70%'}}>
+                            <div className='skill_bar' style={{maxWidth:'45%'}}>
 
                             </div>
                         </div>
