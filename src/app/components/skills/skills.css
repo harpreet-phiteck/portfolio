@@ -64,6 +64,7 @@
         flex: 1 1 100%; 
         text-align: center; 
         padding-inline: 5px; 
+        max-width: 600px;
     }
     .skills_section .skills_image_wrapper img{
         width: 375px;
