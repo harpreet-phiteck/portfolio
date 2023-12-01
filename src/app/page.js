@@ -19,7 +19,7 @@ export default function Home() {
     <main>   
      
       <div className="fixed_icon_container">
-        <a href="https://in.linkedin.com/in/harpreet-bambrah" target="_blank">
+        <a href="https://in.linkedin.com/in/harpreetdev" target="_blank">
           <FontAwesomeIcon icon={faLinkedinIn}  />
         </a>
         <a href="https://github.com/Harpreet-Bambrah" target="_blank">
