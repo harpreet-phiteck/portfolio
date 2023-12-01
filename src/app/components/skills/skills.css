@@ -17,9 +17,10 @@
 }
 .skills_section .skills_image_wrapper{
     text-align: center;
+    padding-inline: 10px;
 }
 .skills_section .skills_image_wrapper img{
-    width: 496px;
+    width: 496px ;
     margin: auto;
     border-radius: 8px;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;

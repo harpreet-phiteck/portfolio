@@ -72,6 +72,7 @@
   .intro_section > .portfolio_container > .intro_wrapper > .intro_image > .intro_image_container img{
     filter: saturate(.8);
     transform: rotate(2deg);
+    width: 90%;
   }
   .intro_section > .portfolio_container > .intro_wrapper .intro_icon_wrapper{
     width: 100%;

@@ -1,6 +1,7 @@
 import './skills.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHtml5,faCss3Alt,faJs, faReact} from '@fortawesome/free-brands-svg-icons';
+import Image from 'next/image';
 export default function Skills(){
     return(
         <section className="skills_section" id='skills'>
@@ -67,7 +68,7 @@ export default function Skills(){
                     </div>
                 </div>
                 <div className="skills_image_wrapper">
-                    <img src="/work3.jpg" alt=""/>
+                    <img src="/work3.webp" alt="skill_image"/>
                 </div>
             </div>      
         </div>

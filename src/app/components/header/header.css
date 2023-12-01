@@ -27,7 +27,7 @@ header{
 .bar {
     width: 25px;
     height: 3px;
-    background-color: var(--black);
+    background-color:var(--black);
     margin: 5px 0;
     transition: all 0.2s ease-in-out;
 }
@@ -43,12 +43,16 @@ header{
 
 .menu a {
     text-decoration: none;
-    color: var(--black);
+    color:var(--black);
     font-weight: 600;
     padding-block: 5px;
     margin-inline: 10px;
+    cursor: pointer;
 }
 .bottom_bdr{
+    border-bottom: 2px solid var(--blue);
+}
+.active-scroll-spy{
     border-bottom: 2px solid var(--blue);
 }
 
@@ -59,7 +63,7 @@ header{
     left: 0;
     z-index: 99;
     animation: smoothScroll 1s forwards;
-    background-color: var(--white);
+    background-color: #ffffffa3;
   }
   @keyframes smoothScroll {
       0% {
@@ -74,7 +78,7 @@ header{
     .menu {  
         display: flex;          
         flex-direction: column;
-        background-color:var(--white);
+        background-color:#ffffff;
         position: absolute;
         top: 45px;      
         width:100%;        

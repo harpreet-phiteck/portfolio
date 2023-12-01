@@ -13,6 +13,7 @@
   }
   html{
     scroll-behavior:smooth;
+    scroll-padding-top: 75px; /* height of your navbar */
   }
   body{
     color: var(--black);

@@ -1,3 +1,4 @@
+'use client'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faGithub,
@@ -12,9 +13,11 @@ import Skills from "./components/skills/skills";
 import Work from "./components/work/work";
 import Contact from "./components/contact/contact";
 import Footer from "./components/footer/footer";
+import ScrollSpy from "react-ui-scrollspy";
 export default function Home() {
   return (
-    <main>
+    <main>   
+     
       <div className="fixed_icon_container">
         <a href="https://in.linkedin.com/in/harpreet-bambrah" target="_blank">
           <FontAwesomeIcon icon={faLinkedinIn}  />
@@ -29,12 +32,14 @@ export default function Home() {
           <FontAwesomeIcon icon={faEnvelope}  />
         </a>
       </div>
+      <ScrollSpy>
       <Intro />
       <Carusal />
       <About />
       <Skills />
       <Work />
       <Contact />
+      </ScrollSpy>
       <Footer />
     </main>
   );

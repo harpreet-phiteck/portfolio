@@ -1,6 +1,7 @@
 'use client'
 import './contact.css'
 import { useState } from 'react'
+import Image from 'next/image'
 export default function Contact() {
     const [data, setData] = useState({})
     const [btnvalue,setbtnvalue] = useState('Message')
@@ -36,21 +37,18 @@ export default function Contact() {
                     </div>
                     <div className='img_form_container'>
                         <div className='contact_img_container'>
-                            <img src='/contact_img.jpg' alt='contact_img' />
+                            <img src='/contact_img.webp' alt='contact_img' />
                         </div>
                         <div className='contact_form_container'>
                             <form onSubmit={SubmitData}>
                                 <label htmlFor="fname">Name<sup> &#8727;</sup></label>
-                                <input type="text" id="fname" className='form_input' name="name" placeholder="Your name.."  onInput={getData} required pattern="[A-Za-z ]+" title='Use upparcase or lowercase letter or space only' />
-
-                                <label htmlFor="lname">Emaill Address<sup> &#8727;</sup></label>
-                                <input type="email" id="lname" className='form_input' name="email" placeholder="Your email address.." onInput={getData} required />                               
+                                <input type="text" id="fname" className='form_input' name="fname" placeholder="Your name.."  onInput={getData} required pattern="[A-Za-z ]+" title='Use upparcase or lowercase letter or space only' />
+                                <label htmlFor="email">Emaill Address<sup> &#8727;</sup></label>
+                                <input type="email" id="email" className='form_input' name="email" placeholder="Your email address.." autoComplete="auto" onInput={getData} required />                               
                                 <label htmlFor="mobile">Mobile No.<sup> &#8727;</sup></label>
                                 <input type="text" id="mobile" className='form_input' name="mobile" placeholder="Your mobile no.." onInput={getData} required pattern="[0-9+ ]+" title="Use only '+',space, 0-9 numbers"/>                               
-
-                                <label htmlFor="subject">Message<sup> &#8727;</sup></label>
-                                <textarea id="subject" className='form_input' name="message" placeholder="Write something.." style={{height:"200px"}} onInput={getData} required ></textarea>
-
+                                <label htmlFor="message">Message<sup> &#8727;</sup></label>
+                                <textarea id="message" className='form_input' name="message" placeholder="Write something.." style={{height:"200px"}} onInput={getData} required ></textarea>
                                 <input type="submit" value={btnvalue} />
                             </form>
                         </div>

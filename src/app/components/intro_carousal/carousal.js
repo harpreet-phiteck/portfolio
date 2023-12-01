@@ -1,7 +1,7 @@
 import './carousal.css';
 export default function Carusal(){
     return(
-        <section>
+        <section id='intro'>
         <div className="slider">
 	<div className="slide-track">
 		<div className="slide">			

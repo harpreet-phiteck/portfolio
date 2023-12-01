@@ -3,6 +3,7 @@ import './about.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheck, faEnvelope, faMessage, faPhone, faPhoneFlip } from '@fortawesome/free-solid-svg-icons';
 import { useState, useEffect } from 'react';
+import Image from 'next/image';
 export default function About() {
     const [getMonth,setMonth] = useState(0);
     const [getyear,setyear] = useState(0);
@@ -23,11 +24,11 @@ export default function About() {
                 </div>
                 <div className="about_wrapper">
                     <div className="about_image_wrapper">
-                        <img src="/harpreet_profile_img (1).png" alt="my_img" />
+                    <img src="/harpreet_profile_img.webp" alt="my_img"/>
                     </div>
                     <div className="about_content_wrapper">
                         <h2>
-                            I'am Harpreet
+                            I&apos;m Harpreet
                         </h2>
                         <p>
                         As a <strong>Front-End Developer</strong> more than <strong>{ getyear > 0 ? getyear+' year': getMonth+' month'}</strong> experience, I specialize in crafting immersive and user-centric web experiences. My expertise lies in HTML, CSS, and JavaScript, along with proficiency in modern front-end frameworks like Bootstrap, React, NextJs.
